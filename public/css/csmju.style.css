@@ -1,0 +1,271 @@
+body {
+    width: 100%;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #8c8c8c;
+    position: relative;
+}
+
+.colorlib-nav-toggle {
+    float: right;
+    z-index: 1003;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+header {
+    padding: 2em 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+    header {
+        padding: 2em 0;
+        position: absolute;
+    }
+}
+
+header .navbar-brand {
+    float: left;
+}
+
+header .navbar-brand .logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 7px;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-left: 62px;
+}
+
+header .navbar-brand .logo .logo-img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+@media (max-width: 767.98px) {
+    .about-section .author-img {
+        display: block;
+        height: 300px;
+    }
+}
+
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.about-author img {
+    border-radius: 50%;
+}
+
+.ftco-section {
+    padding: 7em 0;
+}
+
+.ftco-bg-dark {
+    background: #3c312e;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    background: #121212;
+    padding: 8em 0;
+}
+
+.ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.ftco-footer .ftco-footer-widget h2,
+.ftco-footer .ftco-footer-widget h4 {
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ftco-footer .ftco-footer-widget .email a {
+    color: #fff;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: 700;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ftco-footer a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ftco-footer a:hover {
+    color: #fff;
+}
+
+.ftco-footer .ftco-heading {
+    font-size: 24px;
+}
+
+.ftco-footer .ftco-heading-2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #121212;
+}
+
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+.ftco-footer-social li a {
+    height: 60px;
+    width: 60px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ftco-footer-social li a:hover {
+    color: #fff;
+}
+
+.img,
+.author-img,
+.logo-img,
+.user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated-fast {
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.ftco-animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        /*-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);*/
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot?6tt51o');
+    src: url('../fonts/icomoon/icomoon.eot?6tt51o#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.ttf?6tt51o') format('truetype'), url('../fonts/icomoon/icomoon.woff?6tt51o') format('woff'), url('../fonts/icomoon/icomoon.svg?6tt51o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+    content: "\f099";
+}
+
+.icon-facebook:before {
+    content: "\f09a";
+}
+
+.icon-instagram:before {
+    content: "\f16d";
+}
